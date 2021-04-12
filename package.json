@@ -1,0 +1,11 @@
+{
+  "name": "wahlie-compare",
+  "version": "0.0.1",
+  "description": "Wahlie project site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kashy Zu",
+  "license": "UNLICENSED"
+}
