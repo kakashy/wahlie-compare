@@ -13,17 +13,16 @@ body {
     background-color: #0D0F12;
     color: #e7eec0;
     margin: auto;
+    height: 100%;
 }
 .main {
     font-size: 25px;
-    position: absolute;
-    top: 40%;
-    left: 40%;
     animation: colour-animate 5s;
     animation-iteration-count: infinite;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: inherit;
 }
 @keyframes colour-animate {
     from {
@@ -47,5 +46,7 @@ body {
 }
 .main {
     margin-top: 50px;
-    margin-left: 20px;
+}
+.main p {
+    margin: 40vh;
 }
